@@ -18,6 +18,9 @@ markup:
 
 menu:
   main:
+    - name: Home
+      pageRef: /
+      weight: 1
     - name: Docs
       pageRef: /docs
       weight: 1
@@ -45,11 +48,11 @@ menu:
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
 
   footer:
-    displayCopyright: false
-    displayPoweredBy: true
+    displayCopyright: true
+    displayPoweredBy: false
 
   editURL:
     enable: true
